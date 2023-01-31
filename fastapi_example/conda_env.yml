@@ -1,0 +1,9 @@
+name: sample_inference_env
+dependencies:
+  - python=3.9
+  - pip
+  - wheel
+  - pip:
+    - fastapi==0.89.*
+    - spacy==3.5.*
+    - uvicorn==0.20.*
