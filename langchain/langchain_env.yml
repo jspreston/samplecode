@@ -1,0 +1,24 @@
+# install with: conda env create -f langchain_env.yml
+name: langchain
+dependencies:
+  - python=3.9
+  - pip
+  - wheel
+  - pip:
+    - tqdm
+    - more_itertools
+    - ipython
+    - langchain==0.0.115
+    - azure-core
+    - azure-identity
+    - azure-keyvault
+    - openai
+    - google-search-results
+    - tiktoken
+    ## test requirements
+    - flake8==4.0.*
+    - pylint==2.11.*
+    - isort==5.10.*
+    - black==21.10b0
+    - pytest==6.2.*
+    - autoflake==1.4
