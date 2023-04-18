@@ -1,7 +1,7 @@
 _target_: basic_instantiate.TypeB
-param1:
+type_a:
   _target_: basic_instantiate.TypeA2
   param1: "config_param1"
   param2: 42
   param3: 3.1415926
-param2: 17
+an_int: 17
